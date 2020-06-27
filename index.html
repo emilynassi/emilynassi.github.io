@@ -1,115 +1,138 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-  <meta charset="UTF-8">
-  <title>Emily Nassi</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,600,700,800" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <header>
+    <h1>Emily Rosenkranz</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <a
+        href="https://docs.google.com/document/d/16-55lyIlM9nRUx1U9H9ajUxr4-ykV1B4FzWz6YvrwLc/edit?usp=sharing">Resume</a>
+    </nav>
+  </header>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <h2 class="initial">EN</h2>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="resume.pdf">Resume</a>
-        </li>
-      </ul>
 
-    </div>
-  </nav>
-
-  <div class="container mt-4">
-    <h1 class="intro">Hi, I'm Emily.</h1>
-    <p>I'm a detail-oriented data and marketing analyst focused on increasing ROI and streamlining processes through programming.
-      My strengths are in building robust visualizations using the latest technologies, while applying data science principles
-      and the power of design.
-
-    </p>
-    <hr>
-  </div>
-
-  <div class="container mb-4">
-    <div class="row">
-      <div class="col-md-12 text-center mb-4">
-        <h1>Featured Projects</h1>
+  <main class="page-wrapper">
+    <section class="page-section" id="about">
+      <h2>About</h2>
+      <div>
+        <p>
+          I am a front-end developer designing applications from the ground up. I help clients and companies recognize
+          their visions through a combination of lo-fi mockups and hi-def wireframes, along with UX research, and make
+          them come to life with Javascript, HTML, and CSS.
+        </p>
+        <p>
+          My specialties include Vue, Node, SCSS, Bootstrap, and even Backbone. I create my wireframes with Adobe XD. I
+          recently have worked in the e-commerce space for a variety of industries. I live in New Jersey and spend time
+          cooking, running, and engaging in various house projects.
       </div>
-    </div>
+    </section>
 
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="grid-container">
 
-    <div class="row">
-      <div class="col-md-6 box">
-        <img src="images/jamalyze.PNG" class="image img-fluid">
-        <div class="middle">
-          <div class="hover-text">
-            <a href="https://jamalyze.herokuapp.com">View Application</a>
+        <a href="https://jamalyze.herokuapp.com" target="_blank" class="grid-item featured">
+          <div class="title">
+            <h3>Jamalyze</h3>
           </div>
-        </div>
-      </div>
-      <div class="col-md-6 box">
-        <img src="images/checkup.PNG" class="image img-fluid">
-        <div class="middle">
-          <div class="hover-text">
-            <a href="CheckUp.pdf">View Project</a>
+          <div class="description">
+            <p>
+              This full-stack application explores concert trends across the nation in regards to genre, price, and
+              location.
+            </p>
           </div>
-        </div>
-      </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-md-6 box">
-          <img src="images/earthquakes.PNG" class="image img-fluid">
-          <div class="middle">
-            <div class="hover-text">
-              <a href="https://emilynassi.github.io/earthquake-mapping/">View Application</a>
+          <div class="tech">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>Javascript</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/emilynassi/scss-boilerplate" target="_blank" class="grid-item">
+          <div>
+            <h3>SCSS Builder</h3>
+            <div class="tech">
+              <span>Javascript</span>
+              <span>Node</span>
+              <span>SCSS</span>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 box">
-          <img src="images/kolcomm.PNG" class="image img-fluid">
-          <div class="middle">
-            <div class="hover-text">
-              <a href="http://kolcomm.net">View Website</a>
+
+        </a>
+
+        <a href="CheckUp.pdf" class="grid-item">
+          <div>
+            <h3>Checkup</h3>
+            <div class="tech">
+              <span>UX Research</span>
+              <span>Prototyping</span>
+              <span>Hi-Fi Wireframes</span>
             </div>
           </div>
-        </div>
+        </a>
+
+        <a href="https://github.com/emilynassi/sf-sobject-log" target="_blank" class="grid-item">
+          <div>
+            <h3>SF sObject Log</h3>
+            <div class="tech">
+              <span>SFDX</span>
+              <span>Node</span>
+              <span>Javascript</span>
+            </div>
+          </div>
+        </a>
+
+
+        <a href="#" class="grid-item run-buddy">
+          <div>
+            <h3>Client-Side Filter</h3>
+            <div class="tech">
+              <span>Javascript</span>
+              <span>HTML</span>
+            </div>
+          </div>
+        </a>
 
       </div>
+    </section>
+  </main>
 
-      <div class="container">
-          <div class="col-md-12 mt-4 text-center">
-              
 
-              </div>
-      </div>
+  <section class="page-section contact" id="contact">
+
+    <div style="
+        flex: 100%;
+    ">
+      <address>
+        <a href="mailto:emily.nassi1@gmail.com@">Email</a>
+        <a href="https://github.com/emilynassi/sf-sobject-log">GitHub</a>
+        <a href="https://www.linkedin.com/in/emily-rosenkranz-aa6b4a20/">LinkedIn</a>
+        <a href="https://open.spotify.com/user/124576498?si=Tp1UHwCNTxiaFZl2A9n1uQ">Spotify</a>
+      </address>
     </div>
+  </section>
 
-    <div class="container-fluid pt-4 pb-4 bg-light text-center">
-        <a href="https://www.linkedin.com/in/emily-nassi-aa6b4a20/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
-        <a href="https://github.com/emilynassi"><i class="fa fa-github" style="font-size:24px"></i></a>
-    <a href="mailto:emily.nassi1@gmail.com"><i class="fa fa-envelope" style="font-size:24px"></i></a>
-    </div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
