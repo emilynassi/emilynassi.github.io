@@ -312,7 +312,7 @@ padding-left: 8px;
 }
 
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1440px) {
   main.page-wrapper {
     max-width: 75%;
   }
